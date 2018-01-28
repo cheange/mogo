@@ -1,0 +1,417 @@
+body {
+
+	font-family: Roboto, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+ #toTop {
+width:100px;
+border:1px solid #ccc;
+background:#f7f7f7;
+text-align:center;
+padding:5px;
+position:fixed;
+bottom:10px; /* отступ кнопки от нижнего края страницы*/
+right:10px;
+cursor:pointer;
+display:none;
+color:#333;
+font-family:verdana;
+font-size:11px;
+}
+
+.clearfix:after{
+
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div {
+
+	box-sizing: border-box;
+}
+
+header {
+
+	background: url("img/header.png") no-repeat center top / cover;
+	padding-bottom: 150px;
+	height: 678px;
+}
+.container {
+
+	width: 1024px;
+	margin: 0 auto;
+}
+p.header {
+
+	font-family: "Montserrat";
+	color:white;
+	font-size: 25px;
+	margin: 0 auto;
+	margin-top: 30px;
+	float: left;
+}
+nav {
+	float: right;
+	margin-top: 35px;
+}
+
+.menu {
+
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+.menu li{
+
+	float: left;
+	display: block;
+	margin-right: 50px;
+}
+.menu a:hover {
+
+	color:orange;
+	text-decoration: underline;
+}
+.menu a{
+
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-family: "Montserrat"
+}
+h1 {
+	font-family: "Kaushan Script";
+	font-size: 45px;
+	color: white;
+	text-align: center;
+	margin-top: 130px;
+}
+h2 {
+	font-size: 105px;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	margin:0;
+}
+.title_header {
+
+	width:600px;
+	margin: 0 auto;
+}
+.button {
+
+	color:white;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	border: 3px solid white;
+	display: block;
+	width: 160px;
+	padding: 15px 30px;
+	margin:0 auto;
+	font-family: "Montserrat";
+	margin-top: 20px;
+}
+.title {
+	padding-top: 80px;
+
+
+}
+.title h3 {
+	font-family: "Kaushan Script";
+	font-size: 15px;
+	text-align: center;
+	margin:0;
+	color:#333333;
+}
+.title h4 {
+	font-family: "Montserrat";
+	font-size: 25px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 8px;
+	color: #333333;
+}
+.about{
+
+	font-family: "Roboto";
+	font-size: 15px;
+	text-align: center;
+	color:#c3c3c3;
+} 
+.aboutus img{
+	width: 310px;
+	height: 230px;
+	float: left;
+	text-align: center;
+	margin-top: 80px;
+}
+
+.aboutus img:nth-child(2){
+	margin-left: 50px;
+}
+.aboutus img:last-child{
+	float:right;
+}
+
+#about-us {
+	padding-bottom: 80px;
+}
+section#stat {
+
+	background: url("img/rect.png") no-repeat center top / cover;
+ 	height: 200px;
+ 	color: white;
+ 	text-align: center;
+}
+.stat-cell {
+	float: left;
+	border-right: 0.5px solid white;
+	font-family: "Montserrat";
+	text-align: center;
+	vertical-align: middle;
+	margin-left: 60px;
+	padding-right: 50px;
+	height: 200px;
+}
+.stat-cell:last-child {
+	float: right;
+	border-right: none;
+}
+.stat-cell h3{
+	font-size: 50px;
+	margin-bottom: 0;
+}
+.stat-cell p{
+	margin-top: 0;
+	font-size: 10px;
+}
+ hr{
+ 	border: none; 
+    background-color: #f38181;
+    color: #f38181; 
+    height: 2px; 
+    width:50px;
+    margin-bottom: 20px;
+}
+section.app{
+	text-align: center;
+	background: url("img/app.png") no-repeat center top / cover;
+
+}
+img.iphone {
+	position: absolute;
+	margin-top: 200px;
+	margin-left: -100px
+}
+
+.service-dis {
+	margin-top: 50px;
+}
+section#review{
+	padding-top: 50px;
+	margin-top: 120px;
+	background: url("img/review.png") no-repeat center top / cover;
+	border: 1px solid black;
+ 	min-height: 150px;
+}
+#review img {
+	widows: 90px;
+	height: 90px;
+}
+#review p {
+	float: left;
+}
+#review p.sign {
+	float: left;
+}
+.team-pic {
+	margin-top: 60px;
+}
+.team-pic img{
+	float: left;
+	width: 300px;
+	height: 400px;
+		object-fit:cover;
+	vertical-align: middle;
+	background-position: 50% 50%;
+}
+
+.team-pic img:last-child{
+	float:right;
+
+}
+.team-pic img:nth-child(2){
+	margin-left: 60px;
+}
+section#logo{
+	margin-top: 120px;
+	background: url("img/backlogo.png") no-repeat center top / cover;
+ 	height: 200px;
+}
+#logo img{
+
+	margin-top: 40px;
+	float: left;
+	object-fit:cover;
+	width:1024px;
+}
+.work-pic{
+	margin-top: 60px;
+	display: block;
+}
+.work-pic img{
+	float: left;
+	width: 300px;
+	height: 400px;
+	object-fit:cover;
+}
+.work-pic img:nth-child(4){
+	height: 800px;
+	display: inline-block;
+	position: relative;
+	float: right;
+
+}
+/*.work-pic img:nth-child(4){
+	margin-left: 300px;
+}*/
+section#map{
+	margin-top: 120px;
+	background: url("img/map.png") no-repeat center top / cover;
+ 	height: 200px;
+ 	text-align: center;
+ 	vertical-align: middle;
+ 	color: #f28989;
+ 	font-family: "Montserrat";
+}
+#map img{
+	margin-top: 60px;
+	padding: 0;
+}
+#map p{
+	margin:0;
+}
+.blog-pic img{
+	float: left;
+	width: 300px;
+	height: 200px;
+	object-fit:cover;
+}
+.blog-pic img:last-child{
+	float: right;
+}
+.blog-pic img:nth-child(2){
+	margin-left: 60px;
+
+}
+#doing {
+	padding-bottom: 100px;
+}
+.doing-table {
+	margin: 0 auto;
+}
+
+.doing-table .cell{
+	width: 300px;
+	margin-left: 20px;
+}
+.doing-table .cell img {
+	float: left;
+}
+.doing-table .cell p{
+	font-weight: lighter;
+	text-decoration: none;
+	font-family: "Montserrat";
+	font-size: 15px;
+	float: left;
+	margin-left: 20px;
+	position: top;
+	color: #7a7a7a;
+	margin-top: 0;
+	margin-bottom: 0;
+
+}
+.doing-table .cell h3{
+	text-align: left;
+	font-weight: normal;
+	text-decoration: none;
+	font-family: "Roboto";
+	font-size: 10px;
+	float: left;
+	color: #a0a0a0;
+	margin-left: 53px;
+	margin-top: 0;
+	padding-bottom: 40px;
+}
+
+#say {
+	background: url("img/backsay.png") no-repeat center top / cover;
+}
+#say .doing-table .cell img {
+	width: 115px;
+	height: 115px;
+	border-radius: 100px;
+ 	object-fit: cover;
+ 	margin: 0;
+ 	padding: 0;
+}
+#say .doing-table .cell h4 {
+	text-align: left;
+	font-weight: normal;
+	text-decoration: none;
+	font-family: "Roboto";
+	font-size: 10px;
+	float: left;
+	color: #a0a0a0;
+	margin-left: 120px;
+	margin-top: 0;
+	padding-bottom: 40px;
+}
+#say .doing-table .cell{
+	width: 400px;
+	margin-left: 80px;
+}
+.icon {
+	width: 340px;
+	float: left;
+}
+.blogs-mini{
+	width: 340px;
+	float: left;
+}
+.inst{
+	width: 340px;
+	float: right;
+}
+.icon h3{
+
+	font-family: "Montserrat";
+	color:grey;
+	font-size: 35px;
+	margin: 0 auto;
+	margin-top: 30px;
+	float: left;
+}
+.icon h4{
+
+	font-family: "Roboto";
+	color:grey;
+	font-size: 12px;
+	margin: 0 auto;
+	margin-top: 30px;
+	float: left;
+}
+.icon p {
+	position: relative;
+}
+footer {
+	text-align: center;
+}
+.followers {
+	float: left;
+}
